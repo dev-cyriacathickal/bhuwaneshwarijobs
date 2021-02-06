@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>SearchIn.Onlines</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <link rel="icon" href="favicon.png" type="image/x-icon">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/jquery-ui.min.css" rel="stylesheet">
+      <link href="css/animate.min.css" rel="stylesheet">
+      <link href="css/owl.carousel.css" rel="stylesheet">
+      <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+      <link href="css/fakeLoader.css" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet">
+      <link href="css/responsive-style.css" rel="stylesheet">
+      <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+      <link href="css/custom.css" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css'>
+   </head>
+   <body class="registration-page">
+      <div id="fakeLoader"></div>
+      <div id="menu">
+         <nav id="primaryMenu" class="navbar" style="background: #d9475c !important;">
+            <div class="container">
+               <div id="primaryNavbar" class="reset-padding">
+                  <ul class="primary-menu-links nav navbar-nav" style="color: #fff !important;">
+                     <li class="right-li-txt"><span class="email"></span>Why dstack</li>
+                  </ul>
+                  <ul class="primary-social-menu-links nav navbar-nav navbar-right">
+                     <li><a href="karthika.html">My Profiles</a></li>
+                     <li><a href="" data-toggle="modal" data-target=".bs-example-modal-new">Login</a></li>
+                     <li><a href="registration.html">Sign Up</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <nav id="secondaryMenu" class="navbar" data-sticky="true">
+            <div class="container">
+               <div class="navbar-header"> <a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="" class="img-responsive" /> </a> </div>
+               <button class="btn menu-toggle-btn"> <i class="fa fa-navicon"></i> </button>
+               <div id="secondaryNavbar" class="navbar-right reset-padding hidden-sm hidden-xs">
+                  <ul class="secondary-menu-links nav navbar-nav">
+                     <li class="active"><a href="index.html">Home</a></li>
+                     <li><a href="applications.html">Services</a></li>
+                     <li><a href="gallery.html">Service Gallery</a></li>
+                     <li><a href="about.html">About Us</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="off-canvas-menu">
+            <button type="button" class="off-canvas-menu--close-btn"><i class="fa fa-close"></i></button>
+            <div class="off-canvas-menu-logo"> <a href="index.html" class="off-canvas-menu-logo"> dstack </a> </div>
+            <ul class="nav nav-pills nav-stacked">
+               <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+               <li><a href="applications.html"><i class="fa fa-bullseye"></i> Services</a></li>
+               <li><a href="themes.html"><i class="fa fa-pie-chart"></i> Themes</a></li>
+               <li><a href="about.html"><i class="fa fa-pie-chart"></i>About Us</a></li>
+               <li><a href="contact.html"><i class="fa fa-pie-chart"></i> Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="off-canvas-menu-overlay"></div>
+      </div>
+      <div id="pageTitle" class="bg--overlay bg--img mob-none" style="background:#333;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="section-title">
+                     <h2>About Us</h2>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <ul class="breadcrumb">
+                     <li><span>You are here:</span></li>
+                     <li><a href="#">Home</a></li>
+                     <li class="active">About</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="reg-page">
+         <div class="container">
+            <div class="col-md-8 col-sm-6 footer-widget search-color">
+               <div id="featuresTab" class="bg--lightgray">
+                  <div class="containernone">
+                     <div class="features-tab--nav">
+                        <ul>
+                           <li class="active"><a href="#featuresTabItem01" class="btn btn-lg btn-custom" data-toggle="tab">Basic<br>
+                              Details <br>
+                              <span class="step-pad">STEP1</span></a> 
+                           </li>
+                           <li><a href="#featuresTabItem02" class="btn btn-lg btn-custom" data-toggle="tab">Personal<br>
+                              Information<br>
+                              <span class="step-pad">STEP2</span></a> 
+                           </li>
+                           <li><a href="#featuresTabItem03" class="btn btn-lg btn-custom" data-toggle="tab">Verify <br>
+                              acc<br>
+                              <span class="step-pad">STEP3</span></a> 
+                           </li>
+                           <li><a href="#featuresTabItem04" class="btn btn-lg btn-custom" data-toggle="tab">Choose <br>
+                              Your Plan<br>
+                              <span class="step-pad">STEP4</span></a> 
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="features-tab--items tab-content">
+                        <!-- Features Tab Item Start -->
+                        <div class="features-tab--item tab-pane fade in active" id="featuresTabItem01">
+                           <div class="">
+                              <div id="login">
+                                 <div class="container-none">
+                                    <div data-form-validation="true" class="regin-log">
+                                       <form action="" method="post" class="loginForm">
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="name" name="Name" class="form-control" id="user-name" placeholder="Name" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="contact-number" name="contact-number" class="form-control" id="contact-number" placeholder="Contact Number" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="location" name="State" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">State</option>
+                                                   <option>Kerala</option>
+                                                   <option>Thamil Nadu</option>
+                                                   <option>Karnataka</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="relegion" name="location" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Relegion</option>
+                                                   <option>Hindu</option>
+                                                   <option>Muslim</option>
+                                                   <option>Christian</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="password" name="password" class="form-control" id="loginPassword" placeholder="Password *" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="confirm-password" name="confirm-password" class="form-control" id="confirmPassword" placeholder="Confirm Password *" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12"> <a id="button" type="submit">Create Account</a></div>
+                                          <div class="clearfix"></div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="features-tab--item tab-pane fade" id="featuresTabItem02">
+                           <div class="">
+                              <div class="login">
+                                 <div class="container-none">
+                                    <div data-form-validation="true" class="regin-log">
+                                       <form action="" method="post" class="loginForm">
+                                          <div class="col-md-12 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="gender" name="gender" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Gender</option>
+                                                   <option>Male</option>
+                                                   <option>Female</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="email" class="form-control" id="email-id" placeholder="Email" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input id="height" type="" name="height" class="form-control" id="heigh-section" placeholder="Height" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type=""  name="weight" class="form-control" id="weight-section" placeholder="Weight(KG)" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="maritul-status" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Marital Status</option>
+                                                   <option>Unmarried</option>
+                                                   <option>Divorced</option>
+                                                   <option>Seperared</option>
+                                                   <option>Widow/Widower</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12 ">
+                                             <div class="input-group">
+                                                <select name="mother-tongue" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Mother Tongue</option>
+                                                   <option>Malalayalam</option>
+                                                   <option>Kannada</option>
+                                                   <option>Thamil</option>
+                                                   <option>Hindi</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="cast-hindus" name="cast" class="form-control form-height form-height-50 selectpicker">
+                                                   <option>Caste</option>
+                                                   <option>Nair</option>
+                                                   <option>Ezhava</option>
+                                                   <option>Vishwakarma</option>
+                                                   <option>Nadar</option>
+                                                   <option>Latin Catholic</option>
+                                                   <option>Roman Catholic</option>
+                                                   <option>Nadar</option>
+                                                   <option>Thandan</option>
+                                                   <option>Labbais</option>
+                                                   <option>Ganaka</option>
+                                                   <option>Veerasaiva</option>
+                                                   <option>Dheevara</option>
+                                                   <option>Vanika</option>
+                                                   <option>Vellala</option>
+                                                   <option>Velar</option>
+                                                   <option>Others</option>
+                                                   <option>Cheramor</option>
+                                                   <option>heramar</option>
+                                                   <option>Pulaya</option>
+                                                   <option>Mannan</option>
+                                                   <option>Vannan</option>
+                                                   <option>Panan</option>
+                                                   <option>Pathiyan</option>
+                                                   <option>Yogeeswara</option>
+                                                   <option>Kurava</option>
+                                                   <option>Keralamuthaliyar</option>
+                                                   <option>Kshathriya</option>
+                                                   <option>Sambava</option>
+                                                   <option>Thelung Chetti</option>
+                                                   <option>Ealoor Chetti</option>
+                                                   <option>Reddiyar</option>
+                                                   <option>Brahmin</option>
+                                                   <option>Piramalai Kallar</option>
+                                                   <option>OBC</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="Sub-Caste-hindus" name="Sub-Caste" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Sub Caste</option>
+                                                   <option>-------</option>
+                                                   <option>---------</option>
+                                                   <option>--------</option>
+                                                   <option>------</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Body Type</option>
+                                                   <option>Average</option>
+                                                   <option>Heavy</option>
+                                                   <option>Slim</option>
+                                                   <option>Athletic</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Physical Status</option>
+                                                   <option>Normal</option>
+                                                   <option>Disabled</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group" style="margin-bottom: 5px;">
+                                                <div class="form-group full-size">
+                                                   <textarea class="form-control" rows="3" id="comment" placeholder="About Me"></textarea>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                             <div style="background-image: linear-gradient(180deg, #e99019 0, #e62f4a 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Education and Career </div >
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="Education" name="education" class="form-control" id="education" placeholder="Education or Qualifications" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="occupation" name="occupation" class="form-control" id="occupation" placeholder="Occupation" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="Year of Experience" name="experience" class="form-control" id="experience" placeholder="Years of Experience" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="" name="company-name" class="form-control" id="company-name" placeholder="Company Name" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="" name="work-location" class="form-control" id="work-location" placeholder="Work Location" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                             <div style="background-image: linear-gradient(180deg, #e62f4a 0, #73136e 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Family Informations </div >
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="family-type" name="lFamily-Type" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Family Type</option>
+                                                   <option>Joint Family</option>
+                                                   <option>Nuclear Family</option>
+                                                   <option>Others</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="family-status" name="family-status" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Family Status</option>
+                                                   <option>Lower Income</option>
+                                                   <option>Middle Class</option>
+                                                   <option>Upper Middle Class</option>
+                                                   <option>Rich/Affluent</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="family-value" name="family-value" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Family Value</option>
+                                                   <option>Liberal</option>
+                                                   <option>Moderate</option>
+                                                   <option>Orthodox</option>
+                                                   <option>Traditional</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="father-name" name="father-name" class="form-control" id="father-name" placeholder="Father's Name" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="Father-details" name="Father-details" class="form-control" id="Father-details" placeholder="Father's Details or Job" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="Mother-name" name="Mother-name" class="form-control" id="Mother-name" placeholder="Mother's Name" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="Mother-details" name="Mother-details" class="form-control" id="Mother-details" placeholder="Mother's Details or Job" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group" style="margin-bottom: 5px;">
+                                                <div class="form-group full-size">
+                                                   <textarea class="form-control" rows="3" id="family-members" placeholder="About other Family Members"></textarea>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                             <div style="background-image: linear-gradient(180deg, #e99019 0, #e62f4a 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Address </div >
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="housename" name="housename" class="form-control" id="housename" placeholder="House Name" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="location-plac" name="experience" class="form-control" id="location-place" placeholder="Place" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="City" name="education" class="form-control" id="city" placeholder="City" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="pin" name="pin" class="form-control" id="pin-number" placeholder="Pin" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">District</option>
+                                                   <option>Kasaragod</option>
+                                                   <option>Kannur</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                             <div style="background-image: linear-gradient(110deg,#a55ccb 0,#0a46cf 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Horoscope Details </div >
+                                          </div>
+                                          <div class="col-md-6 col-xs-12 ">
+                                             <div class="input-group">
+                                                <select name="star" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Birth Star</option>
+                                                   <option>Aswathi</option>
+                                                   <option>Bharani</option>
+                                                   <option>Karthika</option>
+                                                   <option>Rohini</option>
+                                                   <option>Makayiram</option>
+                                                   <option>Thiruvathira</option>
+                                                   <option>Punartham</option>
+                                                   <option>Pooyam</option>
+                                                   <option>Ayilyam</option>
+                                                   <option>Makam</option>
+                                                   <option>Pooram</option>
+                                                   <option>Uthram</option>
+                                                   <option>Atham</option>
+                                                   <option>Chithira</option>
+                                                   <option>Chothi</option>
+                                                   <option>Vishakom</option>
+                                                   <option>Anizham</option>
+                                                   <option>Triketta</option>
+                                                   <option>Moolam</option>
+                                                   <option>Pooradam</option>
+                                                   <option>Uthradam</option>
+                                                   <option>Thiruvonam</option>
+                                                   <option>Avittam</option>
+                                                   <option>Chathayam</option>
+                                                   <option>Poororutathy</option>
+                                                   <option>thratathi</option>
+                                                   <option>Revathi</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="rashi" name="rashi" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Raasi</option>
+                                                   <option>Medam</option>
+                                                   <option>Idavam</option>
+                                                   <option>Midhunam</option>
+                                                   <option>Karkkidakam</option>
+                                                   <option>Chingam</option>
+                                                   <option>Kanni</option>
+                                                   <option>Thulaam</option>
+                                                   <option>Vrushchikam</option>
+                                                   <option>Dhanu</option>
+                                                   <option>Makaram</option>
+                                                   <option>Kumbham</option>
+                                                   <option>Meenam</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-xs-12">
+                                          <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="day" name="day" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Day</option>
+                                                   <option>--</option>
+                                                   <option>--</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										                                            <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="month" name="month" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Month</option>
+                                                   <option>--</option>
+                                                   <option>--</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										                                            <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="year" name="year" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Year</option>
+                                                   <option>--</option>
+                                                   <option>--</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          </div>
+ <div class="col-md-6 col-xs-12">
+                                             <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="month" name="month" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Hour </option>
+                                                   <option>--</option>
+                                                   <option>--</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="month" name="month" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Minute</option>
+                                                   <option>--</option>
+                                                   <option>--</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-4 col-xs-4 pad-2">
+                                             <div class="input-group">
+                                                <select id="month" name="month" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">AM/PM</option>
+                                                   <option>AM</option>
+                                                   <option>PM</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          </div>
+
+
+                            
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="place-of-birth" name="place-of-birth" class="form-control" id="education" placeholder="Place of Birth" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Chovva Dosham</option>
+                                                   <option>Don't Know</option>
+                                                   <option>Yes</option>
+                                                   <option>No</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Sudhajathakam</option>
+                                                   <option>Don't Know</option>
+                                                   <option>Yes</option>
+                                                   <option>No</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select name="relegion" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Papajathakam</option>
+                                                   <option>Don't Know</option>
+                                                   <option>Yes</option>
+                                                   <option>No</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="">
+                                             <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div style="background-image: linear-gradient(180deg, #e62f4a 0, #73136e 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Grahanila</div >
+                                             </div>
+                                             <div class="clearfix"></div>
+                                             <div class="col-md-6 col-sm-6 form-mrg-10 grahanila">
+                                                <table width="100%" border="1" class="jathakam">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td colspan="2" rowspan="2" class="bgohm"> <img src="http://keralamangalya.com/assets/web/images/ohm.png"></td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                             <div class="col-md-6 col-sm-6 form-mrg-10 grahanila">
+                                                <table width="100%" border="1" class="jathakam" align="center">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td colspan="2" rowspan="2">
+                                                            <div align="center">നവാംശം </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                         <td>
+                                                            <div class="input-group  hor-val">
+                                                               <select id="" name="horoscope" class="form-control form-height form-height-50 selectpicker">
+                                                                  <option value="">Month</option>
+                                                                  <option>LA</option>
+                                                                  <option>CHA</option>
+                                                                  <option>SHU</option>
+                                                                  <option>GU</option>
+                                                                  <option>RA</option>
+                                                                  <option>BHU</option>
+                                                                  <option>MA</option>
+                                                                  <option>KU</option>
+                                                                  <option>RAA</option>
+                                                                  <option>SHI</option>
+                                                                  <option>SA</option>
+                                                                  <option>MAA</option>
+                                                               </select>
+                                                            </div>
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                             <div class="col-md-6 col-sm-6 col-xs-12 form-mrg-10" style="margin-top: 10px;">
+                                                <div class="form-group ">
+                                                   <input type="file" name="photo" id="photo" class="form-control" placeholder="Mother's Details or Job">
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div style="background-image: linear-gradient(180deg, #e99019 0, #e62f4a 100%); margin-bottom: 5px;padding: 15px 0px;text-align: center;color: #fff;">Hobbies </div >
+                                             </div>
+                                             <div class="col-md-6 col-xs-12">
+                                                <div class="input-group">
+                                                   <select id="hobbies" name="lFamily-Type" class="form-control form-height form-height-50 selectpicker">
+                                                      <option value="Please-Select">Select Your Hobbies</option>
+                                                      <option>Acting</option>
+                                                      <option>Music</option>
+                                                      <option>Reading</option>
+                                                   </select>
+                                                </div>
+                                             </div>
+                                             <div class="clearfix form-mrg-10"></div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <button type="submit" class="btn btn-block submit-button">Submit</button>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="features-tab--item tab-pane fade" id="featuresTabItem03">
+                           <div class="">
+                              <div class="login">
+                                 <div class="container-none">
+                                    <div data-form-validation="true" class="regin-log">
+                                       <form action="http://billing.ywhmcs.com/dologin.php?systpl=CloudServer" method="post" class="loginForm">
+                                          <div class="col-md-6 col-sm-6 col-xs-12 form-mrg-10" style="">
+                                             <div class="form-group ">
+                                                <input type="file" name="photo" id="photo" class="form-control">
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="contact-number" name="mobile-number" class="form-control" id="mobile-number" placeholder="Mobile Number" required>
+                                             </div>
+                                             <div class="form-group gray-clr">
+                                                <label>Enable for Public</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="Yes">
+                                                Yes</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="No">
+                                                No</label>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="guardian-contact" name="guardian-contact" class="form-control" id="guardian-contact" placeholder="Guardian Contact" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="whatsapp" name="whatsapp" class="form-control" id="whatsapp" placeholder="Whatsapp Number" required>
+                                             </div>
+                                             <div class="form-group gray-clr">
+                                                <label>Enable for Public</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="Yes">
+                                                Yes</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="No">
+                                                No</label>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="facebook-id" name="facebook-id" class="form-control" id="facebook-id" placeholder="Facebook ID" required>
+                                             </div>
+                                             <div class="form-group gray-clr">
+                                                <label>Enable for Public</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="Yes">
+                                                Yes</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="No">
+                                                No</label>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="instagram-id" name="instagram-id" class="form-control" id="instagram-id" placeholder="Instagram ID" required>
+                                             </div>
+                                             <div class="form-group gray-clr">
+                                                <label>Enable for Public</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="Yes">
+                                                Yes</label>
+                                                <label class="radio-inline">
+                                                <input type="radio" name="picenable" value="No">
+                                                No</label>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <button type="submit" class="btn btn-block submit-button">Submit </button>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="features-tab--item tab-pane fade" id="featuresTabItem04">
+                           <div class="plan-price">
+                              <div class="col-lg-4 mar-top pad-2">
+                                 <div class="card bg-success mb-5 mb-lg-0 rounded-lg shadow">
+                                    <div class="card-header bg-blue" style="background-color: #d9534f;">
+                                       <h5 class="card-title text-white-50 text-uppercase text-center">Basic Plan</h5>
+                                       <h6 class="h1 text-white text-center">₹499/-<span class="h6 text-white-50"></span></h6>
+                                    </div>
+                                    <div class="card-body bg-light rounded-bottom">
+                                       <table class="table table-striped table-bordered
+                                          table-hover table-sm">
+                                          <tbody>
+                                             <tr class="table-success">
+                                                <td><strong>Duration</strong></td>
+                                                <td> 6 Months  </td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>View Contact Details</strong></td>
+                                                <td>200 Nos</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Get Daily Match Alert </strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Email & Mobile Alert</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Customer care support</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Profile Filter Facility</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 mar-top pad-2">
+                                 <div class="card bg-success mb-5 mb-lg-0 rounded-lg shadow">
+                                    <div class="card-header bg-yellow" style="background-color: #d9534f;">
+                                       <h5 class="card-title text-white-50 text-uppercase text-center">Silver</h5>
+                                       <h6 class="h1 text-white text-center">₹999/-<span class="h6 text-white-50"></span></h6>
+                                    </div>
+                                    <div class="card-body bg-light rounded-bottom">
+                                       <table class="table table-striped table-bordered
+                                          table-hover table-sm">
+                                          <tbody>
+                                             <tr class="table-success">
+                                                <td><strong>Duration</strong></td>
+                                                <td> 9 Months  </td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>View Contact Details</strong></td>
+                                                <td>200 Nos</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Get Daily Match Alert </strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Email & Mobile Alert</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Customer care support</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Profile Filter Facility</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 mar-top pad-2">
+                                 <div class="card bg-success mb-5 mb-lg-0 rounded-lg shadow">
+                                    <div class="card-header" style="background-color: #2a2b3d;">
+                                       <h5 class="card-title text-white-50 text-uppercase text-center">Gold</h5>
+                                       <h6 class="h1 text-white text-center">₹1999/-<span class="h6 text-white-50"></span></h6>
+                                    </div>
+                                    <div class="card-body bg-light rounded-bottom">
+                                       <table class="table table-striped table-bordered
+                                          table-hover table-sm">
+                                          <tbody>
+                                             <tr class="table-success">
+                                                <td><strong>Duration</strong></td>
+                                                <td> 9 Months  </td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>View Contact Details</strong></td>
+                                                <td>200 Nos</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Get Daily Match Alert </strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Email & Mobile Alert</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Customer care support</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Profile Filter Facility</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 mar-top pad-2">
+                                 <div class="card bg-success mb-5 mb-lg-0 rounded-lg shadow">
+                                    <div class="card-header" style="background-color: #5cb85c;">
+                                       <h5 class="card-title text-white-50 text-uppercase text-center">Platinum</h5>
+                                       <h6 class="h1 text-white text-center">₹2999/-<span class="h6 text-white-50"></span></h6>
+                                    </div>
+                                    <div class="card-body bg-light rounded-bottom">
+                                       <table class="table table-striped table-bordered
+                                          table-hover table-sm">
+                                          <tbody>
+                                             <tr class="table-success">
+                                                <td><strong>Duration</strong></td>
+                                                <td> 9 Months  </td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>View Contact Details</strong></td>
+                                                <td>200 Nos</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Get Daily Match Alert </strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Email & Mobile Alert</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Customer care support</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Profile Filter Facility</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 mar-top pad-2">
+                                 <div class="card bg-success mb-5 mb-lg-0 rounded-lg shadow">
+                                    <div class="card-header" style="background-color: #d9534f;">
+                                       <h5 class="card-title text-white-50 text-uppercase text-center">Dedicated</h5>
+                                       <h6 class="h1 text-white text-center">₹4999/-<span class="h6 text-white-50"></span></h6>
+                                    </div>
+                                    <div class="card-body bg-light rounded-bottom">
+                                       <table class="table table-striped table-bordered
+                                          table-hover table-sm">
+                                          <tbody>
+                                             <tr class="table-success">
+                                                <td><strong>Duration</strong></td>
+                                                <td> Unlimitted </td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>View Contact Details</strong></td>
+                                                <td>Unlimitted Nos</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Get Daily Match Alert </strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Email & Mobile Alert</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Customer care support</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                             <tr class="table-success">
+                                                <td><strong>Profile Filter Facility</strong></td>
+                                                <td>Yes</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a> 
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                     <!-- Features Tab Items End --> 
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-widget pad80" > <img src="img/home-slider-img/malabar.jpg" class="pay-add"> </div>
+         </div>
+      </div>
+      <div id="domainSearch" style="background: #d9475c !important;">
+         <div class="container">
+            <div class="content" style="">
+               <div class="col-md-4 left-content"> <a href="benefits-of-having-a-website-for-a-small-business.html" class="btn-mktg btn-block h4-mktg" style="background:transparent; color: #fff !important;border: 1px solid #fff;">Call Us Now</a> </div>
+               <div class="col-md-8 right-content">
+                  <!-- Domain Search Form Start -->
+                  <div>
+                     <h2 class="mb-1 lh-condensed lh-md-default i0o">Lorem ipsum</h2>
+                     <p class="mb-3 mb-lg-0 f4 " style="color: #fff; ">From ideas to execution, dstack is your place to reinvent your business. Get a competitive edge, reinvent processes, improve quality and consistency throughout your business.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                  <h4>Lorem ipsum</h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6   footer-widget">
+                  <h4>Technologies</h4>
+                  <!-- Footer Title End -->
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6  col-xs-6  footer-widget">
+                  <h4>Industries </h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6  footer-widget">
+                  <h4>Support</h4>
+                  <ul>
+                     <li><a>Architecture</a></li>
+                     <li><a>Outdoor</a></li>
+                  </ul>
+                  <div class="footer--social-widget">
+                     <p>FOLLOW US ON:</p>
+                     <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/dstack.info/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <script src="js/jquery-3.1.0.min.js"></script> 
+      <script src="js/jquery-ui.min.js"></script> 
+      <script src="js/jquery.ui.touch-punch.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/fakeLoader.min.js"></script> 
+      <script src="js/jquery.sticky.js"></script> 
+      <script src="js/owl.carousel.min.js"></script> 
+      <script src="js/jquery.tubular.1.0.js"></script> 
+      <script src="js/jquery.magnific-popup.min.js"></script> 
+      <script src="js/jquery.validate.min.js"></script> 
+      <script src="js/animatescroll.min.js"></script> 
+      <script src="js/jquery.waypoints.min.js"></script> 
+      <script src="js/jquery.counterup.min.js"></script> 
+      <script src="js/jquery.countdown.min.js"></script> 
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js'></script> 
+      <script src="js/main.js"></script> 
+      <script>$("#button").click(function() {
+         swal("Success Message Title", "Well done, you pressed a button", "success")
+         });
+      </script>
+   </body>
+</html>

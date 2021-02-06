@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>SearchIn.Onlines</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <link rel="icon" href="favicon.png" type="image/x-icon">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/jquery-ui.min.css" rel="stylesheet">
+      <link href="css/animate.min.css" rel="stylesheet">
+      <link href="css/owl.carousel.css" rel="stylesheet">
+      <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+      <link href="css/fakeLoader.css" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet">
+      <link href="css/responsive-style.css" rel="stylesheet">
+      <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+      <link href="css/custom.css" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css'>
+   </head>
+   <body class="registration-page">
+      <div id="fakeLoader"></div>
+      <div id="menu">
+         <nav id="primaryMenu" class="navbar" style="background: #d9475c !important;">
+            <div class="container">
+               <div id="primaryNavbar" class="reset-padding">
+                  <ul class="primary-menu-links nav navbar-nav" style="color: #fff !important;">
+                     <li class="right-li-txt"><span class="email"></span>Why dstack</li>
+                  </ul>
+                  <ul class="primary-social-menu-links nav navbar-nav navbar-right">
+                     <li><a href="karthika.html">My Profiles</a></li>
+                     <li><a href="" data-toggle="modal" data-target=".bs-example-modal-new">Login</a></li>
+                     <li><a href="registration.html">Sign Up</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <nav id="secondaryMenu" class="navbar" data-sticky="true">
+            <div class="container">
+               <div class="navbar-header"> <a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="" class="img-responsive" /> </a> </div>
+               <button class="btn menu-toggle-btn"> <i class="fa fa-navicon"></i> </button>
+               <div id="secondaryNavbar" class="navbar-right reset-padding hidden-sm hidden-xs">
+                  <ul class="secondary-menu-links nav navbar-nav">
+                     <li class="active"><a href="index.html">Home</a></li>
+                     <li><a href="applications.html">Services</a></li>
+                     <li><a href="gallery.html">Service Gallery</a></li>
+                     <li><a href="about.html">About Us</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="off-canvas-menu">
+            <button type="button" class="off-canvas-menu--close-btn"><i class="fa fa-close"></i></button>
+            <div class="off-canvas-menu-logo"> <a href="index.html" class="off-canvas-menu-logo"> dstack </a> </div>
+            <ul class="nav nav-pills nav-stacked">
+               <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+               <li><a href="applications.html"><i class="fa fa-bullseye"></i> Services</a></li>
+               <li><a href="themes.html"><i class="fa fa-pie-chart"></i> Themes</a></li>
+               <li><a href="about.html"><i class="fa fa-pie-chart"></i>About Us</a></li>
+               <li><a href="contact.html"><i class="fa fa-pie-chart"></i> Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="off-canvas-menu-overlay"></div>
+      </div>
+      <div id="pageTitle" class="bg--overlay bg--img mob-none" style="background:#333;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="section-title">
+                     <h2>About Us</h2>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <ul class="breadcrumb">
+                     <li><span>You are here:</span></li>
+                     <li><a href="#">Home</a></li>
+                     <li class="active">About</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="reg-page">
+         <div class="container">
+            <div class="col-md-12 col-sm-12 footer-widget search-color">
+               <div id="featuresTab" class="bg--lightgray">
+                  <div class="containernone">
+                     <div class="features-tab--nav">
+                        <ul>
+                           <li class="active"><a href="#featuresTabItem01" class="btn btn-lg btn-custom" data-toggle="tab">Basic<br>
+                              Details <br>
+                              <span class="step-pad">STEP1</span></a> 
+                           </li>
+                           <li><a href="#featuresTabItem02" class="btn btn-lg btn-custom" data-toggle="tab">Personal<br>
+                              Information<br>
+                              <span class="step-pad">STEP2</span></a> 
+                           </li>
+                       
+                        
+                        </ul>
+                     </div>
+                     <div class="features-tab--items tab-content">
+                        <!-- Features Tab Item Start -->
+                        <div class="features-tab--item tab-pane fade in active" id="featuresTabItem01">
+                           <div class="">
+                              <div id="login">
+                                 <div class="container-none">
+                                    <div data-form-validation="true" class="regin-log">
+                                       <form action="" method="post" class="loginForm">
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="Name" class="form-control" id="Job-Title" placeholder="Job Title *" required>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="Name" class="form-control" id="Application-Deadline" placeholder="Application Deadline" required>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="job-sector" name="job-sector" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Job Sector *</option>
+                                                   <option>Finance</option>
+                                                   <option>Automative</option>
+                                                   <option>Healthcare</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="job-type *" name="Job-Type *" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Job Type *</option>
+                                                   <option>Freelanse</option>
+                                                   <option>Full Time</option>
+                                                   <option>Part Time</option>
+												   <option>PTemporary</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="Required-kills" class="form-control" id="Required-Skills" placeholder="Required Skills *" required>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="salary" name="salary" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Salary</option>
+                                                   <option>Monthly</option>
+                                                   <option>Weekly</option>
+                                                   <option>Hourly</option>
+												   <option>Negotiable</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                                                  <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="offered-salary" name="" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Offered Salary</option>
+                                                   <option>1000</option>
+                                                   <option>2000</option>
+                                                   <option>3000</option>
+												   <option>4000</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										               <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="Career-Level" name="" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Career Level</option>
+                                                   <option>Manager</option>
+                                                   <option>Officer</option>
+                                                   <option>Student</option>
+												   <option>Executive</option>
+												   <option>Other</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										               <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="Career-Level" name="" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Experience * </option>
+                                                   <option>Less than 1 Years</option>
+                                                   <option>2</option>
+                                                   <option>3</option>
+												   <option>4</option>
+												   <option>5</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										 <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="Career-Level" name="" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Gender * </option>
+                                                   <option>Male</option>
+                                                   <option>Female</option>
+                                                </select>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="industry" class="form-control" id="industry *" placeholder="Industry *" required>
+                                             </div>
+                                          </div>
+										  <div class="col-md-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="Qualifications" name="" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Qualifications *</option>
+                                                   <option>Diploma</option>
+                                                   <option>Associate</option>
+												   <option>Degree</option>
+												   												   <option>Medical</option>
+                                                </select>
+                                             </div>
+                                          </div>
+
+                                       
+                                          <div class="col-md-6 col-sm-6 col-xs-12"> <a id="button" type="submit">Save</a></div>
+                                          <div class="clearfix"></div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="features-tab--item tab-pane fade" id="featuresTabItem02">
+                           <div class="">
+                              <div class="login">
+                                 <div class="container-none">
+                                    <div data-form-validation="true" class="regin-log">
+                                       <form action="" method="post" class="loginForm">
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="input-group">
+                                                <select id="gender" name="gender" class="form-control form-height form-height-50 selectpicker">
+                                                   <option value="">Country</option>
+                                                   <option>India</option>
+                                                   <option>Pakisthan</option>
+                                                </select>
+                                             </div>
+                                          </div>
+							
+							
+										    
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input type="text" name="city" class="form-control" id="email-id" placeholder="City" required>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-6 col-xs-12">
+                                             <div class="form-group form-mrg-10">
+                                                <input id="PostalCode" type="text" name="" class="form-control" id="heigh-section" placeholder="Postal Code" required>
+                                             </div>
+                                          </div>
+
+
+                                          <div class="clearfix"></div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                       
+                      
+                     </div>
+                     <!-- Features Tab Items End --> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="domainSearch" style="background: #d9475c !important;">
+         <div class="container">
+            <div class="content" style="">
+               <div class="col-md-4 left-content"> <a href="benefits-of-having-a-website-for-a-small-business.html" class="btn-mktg btn-block h4-mktg" style="background:transparent; color: #fff !important;border: 1px solid #fff;">Call Us Now</a> </div>
+               <div class="col-md-8 right-content">
+                  <!-- Domain Search Form Start -->
+                  <div>
+                     <h2 class="mb-1 lh-condensed lh-md-default i0o">Lorem ipsum</h2>
+                     <p class="mb-3 mb-lg-0 f4 " style="color: #fff; ">From ideas to execution, dstack is your place to reinvent your business. Get a competitive edge, reinvent processes, improve quality and consistency throughout your business.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                  <h4>Lorem ipsum</h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6   footer-widget">
+                  <h4>Technologies</h4>
+                  <!-- Footer Title End -->
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6  col-xs-6  footer-widget">
+                  <h4>Industries </h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6  footer-widget">
+                  <h4>Support</h4>
+                  <ul>
+                     <li><a>Architecture</a></li>
+                     <li><a>Outdoor</a></li>
+                  </ul>
+                  <div class="footer--social-widget">
+                     <p>FOLLOW US ON:</p>
+                     <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/dstack.info/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <script src="js/jquery-3.1.0.min.js"></script> 
+      <script src="js/jquery-ui.min.js"></script> 
+      <script src="js/jquery.ui.touch-punch.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/fakeLoader.min.js"></script> 
+      <script src="js/jquery.sticky.js"></script> 
+      <script src="js/owl.carousel.min.js"></script> 
+      <script src="js/jquery.tubular.1.0.js"></script> 
+      <script src="js/jquery.magnific-popup.min.js"></script> 
+      <script src="js/jquery.validate.min.js"></script> 
+      <script src="js/animatescroll.min.js"></script> 
+      <script src="js/jquery.waypoints.min.js"></script> 
+      <script src="js/jquery.counterup.min.js"></script> 
+      <script src="js/jquery.countdown.min.js"></script> 
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js'></script> 
+      <script src="js/main.js"></script> 
+      <script>$("#button").click(function() {
+         swal("Success Message Title", "Well done, you pressed a button", "success")
+         });
+      </script>
+   </body>
+</html>

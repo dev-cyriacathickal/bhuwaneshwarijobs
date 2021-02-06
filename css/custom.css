@@ -1,0 +1,44 @@
+
+*/
+.owl-dot {
+  height: 10px;
+  width: 10px;
+  background: red !important;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+.pad-3 {
+  margin-top: 0px;
+  padding: 5px;
+}
+#all-list04 {
+  padding: 40px 0px;
+  background: #ececec;
+}
+.all-l-out {
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 5px 0px;
+}
+.all-img {
+  padding: 5px 0px;
+}
+.all-img img {
+  width: 40% !important;
+  margin: 0 auto;
+}
+.all-dots {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .all-img img {
+    width: 60% !important;
+    margin: 0 auto;
+  }
+  .pad-3 {
+    padding: 2px;
+  }
+}

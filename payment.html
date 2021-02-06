@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>SearchIn.Onlines</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <link rel="icon" href="favicon.png" type="image/x-icon">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/jquery-ui.min.css" rel="stylesheet">
+      <link href="css/animate.min.css" rel="stylesheet">
+      <link href="css/owl.carousel.css" rel="stylesheet">
+      <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+      <link href="css/fakeLoader.css" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet">
+      <link href="css/responsive-style.css" rel="stylesheet">
+      <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+      <link href="css/custom.css" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css'>
+   </head>
+   <body>
+      <div id="fakeLoader"></div>
+      <div id="menu">
+         <nav id="secondaryMenu" class="navbar" data-sticky="true">
+            <div class="container">
+               <div class="navbar-header"> <a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="" class="img-responsive" /> </a> </div>
+               <button class="btn menu-toggle-btn"> <i class="fa fa-navicon"></i> </button>
+               <div id="secondaryNavbar" class="navbar-right reset-padding hidden-sm hidden-xs">
+                  <ul class="secondary-menu-links nav navbar-nav">
+                     <li class="active"><a href="index.html">Home</a></li>
+                     <li><a href="applications.html">Services</a></li>
+                     <li><a href="gallery.html">Service Gallery</a></li>
+                     <li><a href="about.html">About Us</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="off-canvas-menu">
+            <button type="button" class="off-canvas-menu--close-btn"><i class="fa fa-close"></i></button>
+            <div class="off-canvas-menu-logo"> <a href="index.html" class="off-canvas-menu-logo"> dstack </a> </div>
+            <ul class="nav nav-pills nav-stacked">
+               <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+               <li><a href="applications.html"><i class="fa fa-bullseye"></i> Services</a></li>
+               <li><a href="themes.html"><i class="fa fa-pie-chart"></i> Themes</a></li>
+               <li><a href="about.html"><i class="fa fa-pie-chart"></i>About Us</a></li>
+               <li><a href="contact.html"><i class="fa fa-pie-chart"></i> Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="off-canvas-menu-overlay"></div>
+      </div>
+      <div id="pageTitle" class="bg--overlay bg--img mob-none" style="background:#333;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="section-title">
+                     <h2>About Us</h2>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <ul class="breadcrumb">
+                     <li><span>You are here:</span></li>
+                     <li><a href="#">Home</a></li>
+                     <li class="active">About</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="pay-option-out">
+         <div class="container">
+            <div class="col-md-8 col-sm-6 col-xs-12 pad0">
+               <div id="pay-option-in" class="">
+                  <div class="container-none">
+                     <div class="bill-form">
+                        <div class="container-none">
+                           <div data-form-validation="true" class="">
+                              <form action="" method="post">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="name" name="Card-Number" class="form-control" id="card-number" placeholder="Email*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="name" name="Card-Number" class="form-control" id="first-name" placeholder="First Name*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="name" name="Card-Number" class="form-control" id="last-name" placeholder="Last Name*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="" name="Cardholder-Name" class="form-control" id="Cardholder-Name*:" placeholder="Street Address*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="CVV Code*" name="CVV Code*" class="form-control" id="CVV Code*:" placeholder="City*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="bill-form">
+                        <div class="container-none">
+                           <div data-form-validation="true">
+                              <form action="" method="post">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="name" name="Card-Number" class="form-control" id="" placeholder="Card Number*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-xs-12">
+                                    <div class="input-group">
+                                       <select id="Card-Expiration*:" name="Card-Expiration*:" class="form-control form-height form-height-50 selectpicker">
+                                          <option value="">Month</option>
+                                          <option>--</option>
+                                          <option>--</option>
+                                          <option>--</option>
+                                       </select>
+                                    </div>
+                                 </div>
+								 <div class="col-md-6 col-xs-12">
+                                    <div class="input-group">
+                                       <select id="years*:" name="years*:" class="form-control form-height form-height-50 selectpicker">
+                                          <option value="">Year</option>
+                                          <option>--</option>
+                                          <option>--</option>
+                                          <option>--</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="" name="Cardholder-Name" class="form-control" id="CardholderName*:" placeholder="Cardholder Name*:" required>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group form-mrg-10">
+                                       <input type="CVV Code*" name="CVV Code*" class="form-control" id="CVV-Code*:" placeholder="CVV Code*" required>
+                                    </div>
+                                 </div>
+								  <div class="clearfix"></div>
+								  <div class="txt-concern"> <p class="privacy-confirm-txt">
+                                    <label>
+                                    <input type="checkbox" class="checkbox payment-confirm" id="b-matr" name="b-matrimoni" value="ON" data-parsley-multiple="b-matrimoni" data-parsley-id="">
+                                    I confirm that I have read and agree to the bhuvaneswari  job <a href="">Terms of Service</a>
+                                    and	<a target="_blank" href="/privacy.html">Privacy Policy</a> and I understand that the bhuvaneswari matrimony services are provided on a subscription basis and are set to auto-renew for the same period they were initially ordered for. Renewal settings can be managed in the bhuvaneswari  customer area.					</label>
+                                 </p></div>
+                                
+                                 <div class="col-md-12 col-sm-12 col-xs-12"> <a id="button" type="submit">Pay Now</a></div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <p class="right">We Accept: <img src="img/home-slider-img/payment-methods.png" alt=""></p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Features Tab Items End --> 
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-widget pad80" > <img src="img/home-slider-img/malabar.jpg" class="pay-add"> </div>
+         </div>
+      </div>
+	  <div class="clearfix"></div>
+      <div id="domainSearch" style="background: #d9475c !important;">
+         <div class="container">
+            <div class="content" style="">
+               <div class="col-md-4 left-content">  <a href="benefits-of-having-a-website-for-a-small-business.html" class="btn-mktg btn-block h4-mktg" style="background:transparent; color: #fff !important;border: 1px solid #fff;">Call Us Now</a> </div>
+               <div class="col-md-8 right-content">
+                  <!-- Domain Search Form Start -->
+                  <div>
+                     <h2 class="mb-1 lh-condensed lh-md-default i0o">Lorem ipsum</h2>
+                     <p class="mb-3 mb-lg-0 f4 " style="color: #fff; ">From ideas to execution, dstack is your place to reinvent your business. Get a competitive edge, reinvent processes, improve quality and consistency throughout your business.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                  <h4>Lorem ipsum</h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6   footer-widget">
+                  <h4>Technologies</h4>
+                  <!-- Footer Title End -->
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6  col-xs-6  footer-widget">
+                  <h4>Industries </h4>
+                  <ul>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                     <li><a>Lorem ipsum</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6  footer-widget">
+                  <h4>Support</h4>
+                  <ul>
+                     <li><a>Architecture</a></li>
+                     <li><a>Outdoor</a></li>
+                  </ul>
+                  <div class="footer--social-widget">
+                     <p>FOLLOW US ON:</p>
+                     <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/dstack.info/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <script src="js/jquery-3.1.0.min.js"></script> 
+      <script src="js/jquery-ui.min.js"></script> 
+      <script src="js/jquery.ui.touch-punch.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/fakeLoader.min.js"></script> 
+      <script src="js/jquery.sticky.js"></script> 
+      <script src="js/owl.carousel.min.js"></script> 
+      <script src="js/jquery.tubular.1.0.js"></script> 
+      <script src="js/jquery.magnific-popup.min.js"></script> 
+      <script src="js/jquery.validate.min.js"></script> 
+      <script src="js/animatescroll.min.js"></script> 
+      <script src="js/jquery.waypoints.min.js"></script> 
+      <script src="js/jquery.counterup.min.js"></script> 
+      <script src="js/jquery.countdown.min.js"></script> 
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js'></script> 
+      <script src="js/main.js"></script> 
+      <script>$("#button").click(function() {
+         swal("Success Message Title", "Well done, you pressed a button", "success")
+         });
+      </script>
+   </body>
+</html>
