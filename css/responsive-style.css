@@ -31,9 +31,21 @@
 /* 1.2. MEDIUM DEVICES, DESKTOPS */
 @media screen and (max-width: 991px) {
 	.txt-container {
-  
-    height: 115px;
-   
+
+    padding: 10px 10px;
+ 
+}
+	.bg-w {
+    background: #fff;
+    border-radius: 5px;
+}
+	.elementor-clearfix {
+    padding: 3px 0px;
+
+}
+.latest-job .txt-container {
+   height: 240px !important;
+
 }
 	.in02 h4 {
     font-weight: 100; 
@@ -127,16 +139,17 @@
  
 }
 	.reg-page{
-	 background-color: #2a2b3d;
+	 
 }
 #featuresTab {
 
  
 	   
-	background-color: #2a2b3d;
+	
 }
 	.aCounter-holder {
     margin-bottom: 15px;
+	margin-top:5px;
 }
 	.detail .container{
 		padding: 0px;
@@ -288,7 +301,8 @@ color: #fff;
 		display: none;
 	}
 	.btm-pad-mob{
-		padding: 15px 0px 10px 0px !important;
+		padding: 30px 0px 30px 0px !important;
+    border-top: 1px solid #f7f7f7;
 	}
 	.gallery--filter-menu {
     margin-bottom: 5px;
@@ -522,7 +536,7 @@ padding: 0px 8px !important;
 
     .banner-item-img,
     .banner-item-content {
-        margin-top: 50px;
+      margin-top: 10px;
 		padding: 0px 5px;
     }
 
@@ -721,7 +735,7 @@ padding: 0px 8px !important;
     top: 5px;
 }
 	
-	.top-brand-container{ padding: 10px 15px!important;}
+	.top-brand-container{ padding: 42px 15px 50px 15px !important;}
 		.quick-contact{
 	display: block;
 }

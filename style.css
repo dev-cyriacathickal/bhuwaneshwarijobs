@@ -1,3 +1,10 @@
+.right-mar{
+	margin:30px 0px 40px 0px;
+}
+
+.job-prop-bhuv{
+	height:80px;
+}
 .bhuv-job-tit{
 	
 	border-bottom: 1px solid #fff;
@@ -8,7 +15,9 @@ margin-bottom: 10px;
     font-size: 17px !important;;
 }
 .job-title-desc
-{color: #969696;}
+{color: #969696;
+height: 36px;
+}
 
 .post-job{
 	background: #fd8204;
@@ -18,9 +27,9 @@ margin-bottom: 10px;
     color:#fff !important;
 }
 .latest-job .txt-container {
-       height: 200px !important;
+      height: 212px !important;
 	       text-align: left;
-    padding-left: 15px;
+   padding-left: 8px;
 }
 .company-value .container{padding-bottom:15px;}
 .company-value .col-xs-6{padding:2px;}
@@ -805,7 +814,7 @@ border:none ;
    
 }
 .vis-com-home {
-    background: #d9475c;
+   background: #1a73e8;
     padding: 5px 20px;
     border-radius: 5px;
     margin-top: 10px;
@@ -1779,7 +1788,7 @@ a.btn-custom.btn-lg {
 }
 a.btn-custom:hover, a.btn-custom:focus {
   color: #fff;
- background-color: #d9475c;
+ background-color: #337ab7;
   box-shadow: none;
 }
 a.btn-custom-reverse {
@@ -2585,7 +2594,7 @@ a.login-button.btn.btn-default:hover, a.login-button.btn.btn-default:focus {
 	 
 }
 .features-tab--nav ul li.active a {
-  background: #d9475c;
+ background: #1a73e8;
 
 }
 /* 8.2. FEATURES TAB ITEMS */
