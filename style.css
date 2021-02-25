@@ -1,7 +1,25 @@
+.job-fair-h4{color:#333 !important;padding:15px 0px;}
 .right-mar{
 	margin:30px 0px 40px 0px;
 }
+.job-23 label {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.job-23 .cft {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 4px !important; 
+}
+.cls-top-y{margin-top:10px;}
+.border-0 {
+	border:0;
+}
 
+.width-100 {
+	width:100%;
+}
 .job-prop-bhuv{
 	height:80px;
 }
